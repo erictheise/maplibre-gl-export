@@ -1,6 +1,6 @@
 {
-  "name": "@watergis/maplibre-gl-export",
-  "version": "1.0.0",
+  "name": "@erictheise/maplibre-gl-export",
+  "version": "1.0.1",
   "description": "This repository to manage plugin of maplibre-gl-export.",
   "scripts": {
     "lint": "pnpm -r lint",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/watergis/maplibre-gl-export.git"
+    "url": "git+https://github.com/erictheise/maplibre-gl-export.git"
   },
   "keywords": [],
   "author": "Jin IGARASHI",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/watergis/maplibre-gl-export/issues"
+    "url": "https://github.com/erictheise/maplibre-gl-export/issues"
   },
-  "homepage": "https://github.com/watergis/maplibre-gl-export#readme",
+  "homepage": "https://github.com/erictheise/maplibre-gl-export#readme",
   "devDependencies": {
     "@changesets/cli": "^2.27.7",
     "lefthook": "^1.7.14"
@@ -27,5 +27,9 @@
   "engines": {
     "pnpm": "^9.0.0"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "pnpm": "^9.9.0"
+  }
+
 }
