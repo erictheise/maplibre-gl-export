@@ -26,19 +26,19 @@ map.addControl(new maplibregl.AttributionControl({ compact: false }), 'bottom-ri
 map.addControl(
 	new MaplibreExportControl({
 		PageSize: Size.A3,
-		PageOrientation: PageOrientation.Portrait,
-		Format: Format.PNG,
-		DPI: DPI[96],
-		Crosshair: true,
+		PageOrientation: PageOrientation.Landscape,
+		Format: Format.PDF,
+		DPI: DPI[300],
+		Crosshair: false,
 		PrintableArea: true,
 		Local: 'en',
 		attributionOptions: {
 			position: 'bottom-right',
-			visibility: 'visible'
+			visibility: 'none'
 		},
 		northIconOptions: {
 			position: 'top-right',
-			visibility: 'visible'
+			visibility: 'none'
 		}
 	}),
 	'top-right'
