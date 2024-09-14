@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      pnpm:
+        specifier: ^9.9.0
+        version: 9.9.0
     devDependencies:
       '@changesets/cli':
         specifier: ^2.27.7
@@ -2153,6 +2157,11 @@ packages:
 
   pmtiles@3.0.7:
     resolution: {integrity: sha512-kGTFNyzmNdF8yiGxuoskNwLfUkHzC1ouJ5waL6dLID+g4hKlGnohIGX4q7qXrY0rHTK+8MwIKDTrUjY70Kk5ew==}
+
+  pnpm@9.9.0:
+    resolution: {integrity: sha512-YMGKzROL/2ldM5vmrRP36TbupnRWYNTMSndtUkfFQNDt7hpWNpXBg6ZuuRfviPK0/rH8JfMqetytx6rzQ46ZwQ==}
+    engines: {node: '>=18.12'}
+    hasBin: true
 
   possible-typed-array-names@1.0.0:
     resolution: {integrity: sha512-d7Uw+eZoloe0EHDIYoe+bQ5WXnGMOpmiZFTuMWCwpjzzkL2nTjcKiAk4hh8TjnGye2TwWOk3UXucZ+3rbmBa8Q==}
@@ -4987,6 +4996,8 @@ snapshots:
     dependencies:
       '@types/leaflet': 1.9.12
       fflate: 0.8.2
+
+  pnpm@9.9.0: {}
 
   possible-typed-array-names@1.0.0: {}
 
