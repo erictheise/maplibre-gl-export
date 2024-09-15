@@ -1,6 +1,6 @@
 # maplibre-gl-export
 
-![build](https://img.shields.io/github/actions/workflow/status/erictheise/maplibre-gl-export/build.yml)
+[![build](https://img.shields.io/github/actions/workflow/status/erictheise/maplibre-gl-export/build.yml)](https://github.com/erictheise/maplibre-gl-export/actions/workflows/build.yml)
 ![License](https://img.shields.io/github/license/erictheise/maplibre-gl-export)
 ![GitHub repo size](https://img.shields.io/github/repo-size/erictheise/maplibre-gl-export)
 
