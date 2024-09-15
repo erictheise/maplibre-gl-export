@@ -1,5 +1,11 @@
 # @watergis/mapbox-gl-export
 
+## 1.1.0
+
+### Minor Changes
+
+- 2fa4580: Publishing fork under new release versions.
+
 ## 3.5.3
 
 ### Patch Changes

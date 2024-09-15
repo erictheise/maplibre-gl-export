@@ -1,5 +1,11 @@
 # @watergis/maplibre-gl-export
 
+## 1.1.0
+
+### Minor Changes
+
+- 2fa4580: Publishing fork under new release versions.
+
 ## 3.8.3
 
 ### Patch Changes
