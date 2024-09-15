@@ -1,8 +1,7 @@
 # maplibre-gl-export
 
+![build](https://img.shields.io/github/actions/workflow/status/erictheise/maplibre-gl-export/build.yml)
 ![License](https://img.shields.io/github/license/erictheise/maplibre-gl-export)
-![build](https://github.com/erictheise/maplibre-gl-export/workflows/build/badge.svg)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2ca781c3-2680-4c17-9219-4992c1f2a44e/deploy-status)](https://app.netlify.com/sites/maplibre-gl-export/deploys)
 ![GitHub repo size](https://img.shields.io/github/repo-size/erictheise/maplibre-gl-export)
 
 This is a fork of https://github.com/watergis/maplibre-gl-export. I include upstream documentation (README, LICENSE, etc.) in [`./upstream/`](./upstream/) and use this README to document my changes and usage.
