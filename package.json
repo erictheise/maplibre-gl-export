@@ -13,7 +13,7 @@
     "url": "git+https://github.com/erictheise/maplibre-gl-export.git"
   },
   "keywords": [],
-  "author": "Jin IGARASHI, Eric Theise",
+  "author": "Eric Theise, Jin IGARASHI",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/erictheise/maplibre-gl-export/issues"

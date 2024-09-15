@@ -18,7 +18,7 @@
 		</li>
 		<li>
 			<a
-				href="https://github.com/watergis/maplibre-gl-export"
+				href="https://github.com/erictheise/maplibre-gl-export"
 				target="_blank"
 				on:click={drawerClose}
 			>

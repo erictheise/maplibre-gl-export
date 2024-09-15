@@ -12,7 +12,7 @@ import {
 	SizeType,
 	Unit,
 	UnitType
-} from '@watergis/maplibre-gl-export';
+} from '@erictheise/maplibre-gl-export';
 
 export default class MapGenerator extends MapGeneratorBase {
 	private accesstoken: string | undefined;

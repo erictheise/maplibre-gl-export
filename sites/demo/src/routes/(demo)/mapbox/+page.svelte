@@ -6,9 +6,9 @@
 		PageOrientation,
 		Format,
 		DPI
-	} from '@watergis/mapbox-gl-export';
+	} from '@erictheise/mapbox-gl-export';
 	import { getContext, onMount } from 'svelte';
-	import '@watergis/mapbox-gl-export/dist/mapbox-gl-export.css';
+	import '@erictheise/mapbox-gl-export/dist/mapbox-gl-export.css';
 	import { PUBLIC_MAPBOX_ACCESSTOKEN } from '$env/static/public';
 	import 'mapbox-gl/dist/mapbox-gl.css';
 	import {

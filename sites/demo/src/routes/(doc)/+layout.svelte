@@ -84,7 +84,7 @@
 					</a>
 					<a
 						class="btn btn-sm variant-ghost-surface"
-						href="https://github.com/watergis/maplibre-gl-export"
+						href="https://github.com/erictheise/maplibre-gl-export"
 						target="_blank"
 						rel="noreferrer"
 					>

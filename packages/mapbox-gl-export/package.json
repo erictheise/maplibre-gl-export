@@ -1,6 +1,6 @@
 {
-	"name": "@watergis/mapbox-gl-export",
-	"version": "3.5.3",
+	"name": "@erictheise/mapbox-gl-export",
+	"version": "1.0.2",
 	"description": "This module adds control which can export PDF and images.",
 	"type": "module",
 	"main": "dist/mapbox-gl-export.umd.js",
@@ -41,21 +41,21 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/watergis/maplibre-gl-export.git"
+		"url": "git+https://github.com/erictheise/maplibre-gl-export.git"
 	},
 	"author": "Jin IGARASHI",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/watergis/maplibre-gl-export/issues"
+		"url": "https://github.com/erictheise/maplibre-gl-export/issues"
 	},
-	"homepage": "https://github.com/watergis/maplibre-gl-export#readme",
+	"homepage": "https://github.com/erictheise/maplibre-gl-export#readme",
 	"devDependencies": {
 		"@types/geojson": "^7946.0.14",
 		"@types/mapbox-gl": "^3.4.0",
 		"@types/node": "^22.5.0",
 		"@typescript-eslint/eslint-plugin": "^8.2.0",
 		"@typescript-eslint/parser": "^8.2.0",
-		"@watergis/maplibre-gl-export": "workspace:^",
+		"@erictheise/maplibre-gl-export": "workspace:^",
 		"autoprefixer": "^10.4.20",
 		"eslint": "^9.9.1",
 		"eslint-config-prettier": "^9.1.0",

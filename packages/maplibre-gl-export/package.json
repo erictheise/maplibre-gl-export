@@ -1,6 +1,6 @@
 {
-	"name": "@watergis/maplibre-gl-export",
-	"version": "3.8.3",
+	"name": "@erictheise/maplibre-gl-export",
+	"version": "1.0.2",
 	"description": "This module adds control which can export PDF and images.",
 	"type": "module",
 	"main": "dist/maplibre-gl-export.umd.js",
@@ -42,14 +42,14 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/watergis/maplibre-gl-export.git"
+		"url": "git+https://github.com/erictheise/maplibre-gl-export.git"
 	},
 	"author": "Jin IGARASHI",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/watergis/maplibre-gl-export/issues"
+		"url": "https://github.com/erictheise/maplibre-gl-export/issues"
 	},
-	"homepage": "https://github.com/watergis/maplibre-gl-export/tree/main/packages/maplibre-gl-export#readme",
+	"homepage": "https://github.com/erictheise/maplibre-gl-export/tree/main/packages/maplibre-gl-export#readme",
 	"devDependencies": {
 		"@types/geojson": "^7946.0.14",
 		"@types/mapbox-gl": "^3.4.0",

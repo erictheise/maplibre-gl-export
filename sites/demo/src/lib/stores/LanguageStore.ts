@@ -1,5 +1,5 @@
 import { writable } from 'svelte/store';
-import type { Language } from '@watergis/maplibre-gl-export';
+import type { Language } from '@erictheise/maplibre-gl-export';
 
 export const LANGUAGE_CONTEXT_KEY = 'language-store-context-id';
 

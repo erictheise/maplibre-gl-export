@@ -7,7 +7,7 @@
 		defaultAttributionOptions,
 		defaultMarkerCirclePaint,
 		defaultNorthIconOptions
-	} from '@watergis/maplibre-gl-export';
+	} from '@erictheise/maplibre-gl-export';
 
 	let tabs = [
 		{ label: 'Maplibre GL Export', value: 'maplibre' },
@@ -36,7 +36,7 @@
 			: 'mapbox://styles/mapbox/streets-v11';
 
 	const getMaplibreExportVersion = async () => {
-		const res = await fetch('https://registry.npmjs.org/@watergis/maplibre-gl-export/latest');
+		const res = await fetch('https://registry.npmjs.org/@erictheise/maplibre-gl-export/latest');
 		if (!res.ok) {
 			return;
 		}
@@ -45,7 +45,7 @@
 	};
 
 	const getMapboxExportVersion = async () => {
-		const res = await fetch('https://registry.npmjs.org/@watergis/mapbox-gl-export/latest');
+		const res = await fetch('https://registry.npmjs.org/@erictheise/mapbox-gl-export/latest');
 		if (!res.ok) {
 			return;
 		}
@@ -257,12 +257,12 @@
 				{#if packageManager === 'npm'}
 					<CodeBlock
 						language="shell"
-						code={`npm install --save-dev @watergis/${tabSet}-gl-export`}
+						code={`npm install --save-dev @erictheise/${tabSet}-gl-export`}
 					/>
 				{:else if packageManager === 'yarn'}
-					<CodeBlock language="shell" code={`yarn add --dev @watergis/${tabSet}-gl-export`} />
+					<CodeBlock language="shell" code={`yarn add --dev @erictheise/${tabSet}-gl-export`} />
 				{:else if packageManager === 'pnpm'}
-					<CodeBlock language="shell" code={`pnpm add --save-dev @watergis/${tabSet}-gl-export`} />
+					<CodeBlock language="shell" code={`pnpm add --save-dev @erictheise/${tabSet}-gl-export`} />
 				{/if}
 			</div>
 
@@ -282,8 +282,8 @@ import {
 	PageOrientation,
 	Format,
 	DPI
-} from '@watergis/${tabSet}-gl-export';
-import '@watergis/${tabSet}-gl-export/dist/${tabSet}-gl-export.css';
+} from '@erictheise/${tabSet}-gl-export';
+import '@erictheise/${tabSet}-gl-export/dist/${tabSet}-gl-export.css';
 
 ${tabSet === 'mapbox' ? `mapboxgl.accessToken='${mapboxToken}'` : ''}
 const map = new Map({
@@ -366,7 +366,7 @@ ${
 		<div class="flex justify-center space-x-2 py-6">
 			<a
 				class="btn variant-filled-secondary"
-				href="https://github.com/watergis/maplibre-gl-export/tree/main/packages/{tabSet}-gl-export#options"
+				href="https://github.com/erictheise/maplibre-gl-export/tree/main/packages/{tabSet}-gl-export#options"
 				target="_blank"
 				rel="noreferrer">See implementation</a
 			>

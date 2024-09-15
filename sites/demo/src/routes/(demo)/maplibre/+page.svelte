@@ -6,10 +6,10 @@
 		PageOrientation,
 		Format,
 		DPI
-	} from '@watergis/maplibre-gl-export';
+	} from '@erictheise/maplibre-gl-export';
 	import { Protocol } from 'pmtiles';
 	import { getContext, onMount } from 'svelte';
-	import '@watergis/maplibre-gl-export/dist/maplibre-gl-export.css';
+	import '@erictheise/maplibre-gl-export/dist/maplibre-gl-export.css';
 	import 'maplibre-gl/dist/maplibre-gl.css';
 	import {
 		MAPSTORE_CONTEXT_KEY,

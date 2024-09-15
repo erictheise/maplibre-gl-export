@@ -6,7 +6,7 @@ import {
 	MaplibreExportControl,
 	UnitType,
 	ControlOptions as MaplibreControlOptions
-} from '@watergis/maplibre-gl-export';
+} from '@erictheise/maplibre-gl-export';
 import { ControlOptions } from './interfaces';
 import MapGenerator from './map-generator';
 

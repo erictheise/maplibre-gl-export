@@ -8,7 +8,7 @@
 	import { onMount, setContext } from 'svelte';
 	import LanguageSelector from '$lib/LanguageSelector.svelte';
 	import { page } from '$app/stores';
-	import type { Language } from '@watergis/maplibre-gl-export';
+	import type { Language } from '@erictheise/maplibre-gl-export';
 
 	const mapStore = createMapStore();
 	setContext(MAPSTORE_CONTEXT_KEY, mapStore);
@@ -39,7 +39,7 @@
 
 <a
 	class="github-fork-ribbon left-top"
-	href="https://github.com/watergis/maplibre-gl-export"
+	href="https://github.com/erictheise/maplibre-gl-export"
 	data-ribbon="Fork me on GitHub"
 	title="Fork me on GitHub">Fork me on GitHub</a
 >
