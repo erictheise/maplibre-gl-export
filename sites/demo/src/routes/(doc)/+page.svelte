@@ -262,7 +262,10 @@
 				{:else if packageManager === 'yarn'}
 					<CodeBlock language="shell" code={`yarn add --dev @erictheise/${tabSet}-gl-export`} />
 				{:else if packageManager === 'pnpm'}
-					<CodeBlock language="shell" code={`pnpm add --save-dev @erictheise/${tabSet}-gl-export`} />
+					<CodeBlock
+						language="shell"
+						code={`pnpm add --save-dev @erictheise/${tabSet}-gl-export`}
+					/>
 				{/if}
 			</div>
 

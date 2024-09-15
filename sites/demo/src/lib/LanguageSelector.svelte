@@ -36,7 +36,11 @@
 </script>
 
 <script lang="ts">
-	import { type Language, getTranslation, AvailableLanguages } from '@erictheise/maplibre-gl-export';
+	import {
+		type Language,
+		getTranslation,
+		AvailableLanguages
+	} from '@erictheise/maplibre-gl-export';
 	import type { Map as MapboxMap } from 'mapbox-gl';
 	import type { Map as MaplibreMap } from 'maplibre-gl';
 	import { createEventDispatcher, onDestroy, onMount } from 'svelte';
