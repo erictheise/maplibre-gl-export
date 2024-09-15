@@ -1,4 +1,4 @@
-name: OHM Upstream Sync
+name: Upstream Sync
 
 on:
   schedule:
@@ -22,49 +22,49 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: List all branches
+      - name: List relevant branches
         run: |
-          git branch --all | egrep 'main|master|sacrifice|candidate'
+          git branch --all | egrep '\/main$|sacrifice'
 
       - name: Delete previous sacrificial branch
         run: |
-          if git show-ref --quiet refs/heads/release-candidate; then
-            git branch --remote -D origin/release-candidate
+          if git show-ref --quiet refs/heads/the-sacrifice; then
+            git branch --remote -D origin/the-sacrifice
           fi
 
-      - name: List all branches
+      - name: List relevant branches
         run: |
-          git branch --all | egrep 'main|master|sacrifice|candidate'
+          git branch --all | egrep '\/main$|sacrifice'
 
-      - name: Check out upstream master
+      - name: Check out upstream main
         env:
-          UPSTREAM: https://github.com/tyrasd/overpass-turbo
+          UPSTREAM: https://github.com/watergis/maplibre-gl-export
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@users.noreply.github.com"
           git remote add upstream "${UPSTREAM}"
-          git fetch upstream master
+          git fetch upstream main
 
-      - name: List all branches
+      - name: List relevant branches
         run: |
-          git branch --all | egrep 'main|master|sacrifice|candidate'
+          git branch --all | egrep '\/main$|sacrifice'
 
-      - name: Create 'release-candidate', our new sacrificial branch
+      - name: Create 'the-sacrifice', our new sacrificial branch
         uses: peterjgrainger/action-create-branch@v3.0.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Check out 'release-candidate', our new sacrificial branch
+      - name: Check out 'the-sacrifice', our new sacrificial branch
         uses: actions/checkout@v4
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          ref: "release-candidate"
+          ref: "the-sacrifice"
           fetch-depth: 0
 
-      - name: List all branches
+      - name: List relevant branches
         run: |
-          git branch --all | egrep 'main|master|sacrifice|candidate'
+          git branch --all | egrep '\/main$|sacrifice'
 
       - name: Make our scripts executable
         run: chmod +x ./scripts/*.sh
@@ -73,7 +73,7 @@ jobs:
 
       - name: Start the merge
         run: |
-          git merge --no-ff --no-commit upstream/master
+          git merge --no-ff --no-commit upstream/main
           git status
 
 #      - name: Continue the merge where there are no concerns
@@ -81,4 +81,4 @@ jobs:
 #
 #      - name: Push updates
 #        run: |
-#          git push release-candidate
+#          git push the-sacrifice
