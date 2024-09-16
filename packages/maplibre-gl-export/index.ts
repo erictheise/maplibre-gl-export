@@ -21,10 +21,10 @@ map.addControl(new maplibregl.AttributionControl({ compact: false }), 'bottom-ri
 map.addControl(
 	new MaplibreExportControl({
 		PageSize: Size.Moonstrips,
-		PageOrientation: PageOrientation.Landscape,
-		Format: Format.PDF,
+		PageOrientation: PageOrientation.Portrait,
+		Format: Format.SVG,
 		DPI: DPI[300],
-		Crosshair: false,
+		Crosshair: true,
 		PrintableArea: true,
 		Local: 'en',
 		attributionOptions: {

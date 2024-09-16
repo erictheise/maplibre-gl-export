@@ -31,8 +31,8 @@ export default class PrintableAreaManager {
 		svg.setAttribute('width', `${clientWidth}px`);
 		svg.setAttribute('height', `${clientHeight}px`);
 		const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
-		path.setAttribute('style', 'fill:#888888;stroke-width:0');
-		path.setAttribute('fill-opacity', '0.8');
+		path.setAttribute('style', 'fill:#000;stroke-width:0');
+		path.setAttribute('fill-opacity', '0.75');
 		svg.append(path);
 		this.map?.getCanvasContainer().appendChild(svg);
 		this.svgCanvas = svg;
