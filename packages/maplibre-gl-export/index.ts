@@ -9,11 +9,6 @@ maplibregl.addProtocol('pmtiles', protocol.tile);
 
 const map = new Map({
 	container: 'map',
-	// narok vector style
-	// style: 'https://narwassco.github.io/mapbox-stylefiles/unvt/style.json',
-	// center: [35.87063, -1.08551],
-	// zoom: 12,
-	// terrain testing with Bing aerial
 	style: 'https://narwassco.github.io/mapbox-stylefiles/unvt/style-aerial.json',
 	center: [0, 0],
 	zoom: 1,
@@ -25,7 +20,7 @@ map.addControl(new NavigationControl({ visualizePitch: true }), 'top-right');
 map.addControl(new maplibregl.AttributionControl({ compact: false }), 'bottom-right');
 map.addControl(
 	new MaplibreExportControl({
-		PageSize: Size.A3,
+		PageSize: Size.Moonstrips,
 		PageOrientation: PageOrientation.Landscape,
 		Format: Format.PDF,
 		DPI: DPI[300],

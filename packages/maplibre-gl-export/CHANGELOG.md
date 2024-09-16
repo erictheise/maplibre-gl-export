@@ -150,7 +150,7 @@
 
 ### Patch Changes
 
-- a03a84b: feat: added `LETTER` page size (migrated it from `mapbox-gl-export`)
+- a03a84b: feat: added `Letter` page size (migrated it from `mapbox-gl-export`)
 
 ## 3.1.1
 

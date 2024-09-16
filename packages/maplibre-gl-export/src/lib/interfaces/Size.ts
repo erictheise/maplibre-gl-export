@@ -1,8 +1,9 @@
 export const Size = {
+	Moonstrips: [254, 381], // 10 x 15"
 	// A0, A1, B0, B1 are not working well.
 	// A0: [1189, 841],
 	// A1: [841, 594],
-	LETTER: [279, 216], // 8.5x11 - works
+	Letter: [279, 216], // 8.5x11 - works
 	//TABLOID: [432,279] // 11x17 - not working currently prints to 11.68x8.27 in landscape
 	A2: [594, 420],
 	A3: [420, 297],

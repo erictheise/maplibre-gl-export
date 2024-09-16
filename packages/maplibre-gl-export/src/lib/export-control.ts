@@ -50,7 +50,8 @@ export default class MaplibreExportControl implements IControl {
 		PrintableArea: false,
 		Local: 'en',
 		AllowedSizes: Object.keys(Size) as (
-			| 'LETTER'
+			| 'Moonstrips'
+			| 'Letter'
 			| 'A2'
 			| 'A3'
 			| 'A4'
