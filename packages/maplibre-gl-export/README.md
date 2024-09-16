@@ -1,4 +1,4 @@
-# mapbox-gl-export
+# maplibre-gl-export
 
 [![version](https://img.shields.io/npm/v/@erictheise/mapbox-gl-export.svg)](https://www.npmjs.com/package/@erictheise/mapbox-gl-export)
 

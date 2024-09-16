@@ -21,7 +21,20 @@ export interface ControlOptions {
 	Crosshair?: boolean;
 	PrintableArea?: boolean;
 	Local?: Language;
-	AllowedSizes?: ('Moonstrips' | 'Letter' | 'A2' | 'A3' | 'A4' | 'A5' | 'A6' | 'B2' | 'B3' | 'B4' | 'B5' | 'B6')[];
+	AllowedSizes?: (
+		| 'Moonstrips'
+		| 'Letter'
+		| 'A2'
+		| 'A3'
+		| 'A4'
+		| 'A5'
+		| 'A6'
+		| 'B2'
+		| 'B3'
+		| 'B4'
+		| 'B5'
+		| 'B6'
+	)[];
 	Filename?: string;
 	markerCirclePaint?: CirclePaint;
 	attributionOptions?: AttributionOptions;
