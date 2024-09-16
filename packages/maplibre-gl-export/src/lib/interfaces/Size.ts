@@ -1,5 +1,5 @@
 export const Size = {
-	Moonstrips: [254, 381], // 10 x 15"
+	Moonstrips: [260.35, 387.35], // 10 x 15" + ⅛" bleed all four sides
 	// A0, A1, B0, B1 are not working well.
 	// A0: [1189, 841],
 	// A1: [841, 594],
